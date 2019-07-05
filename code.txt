@@ -16,3 +16,7 @@ git push -u origin master  	push len server
 git branch name-branch        	To create new branch 
 
 git checkout name-branch  	To working with this name-branch
+
+git merge name-branch		merge name-branch into master
+
+git pull origin name-branch 	Can lay code tu this branch ve may local
