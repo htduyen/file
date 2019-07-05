@@ -20,3 +20,8 @@ git checkout name-branch  	To working with this name-branch
 git merge name-branch		merge name-branch into master
 
 git pull origin name-branch 	Can lay code tu this branch ve may local
+
+
+git reset --soft/--hard HEAD~1   Day ra khoi list commit/ Xoa khoi list commit 
+
+git rebase --i 			Gom commit cua minh lai
