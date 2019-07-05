@@ -10,3 +10,5 @@ git remote -v    			xem  url đã tham chieu toi
 
 
 git push -u origin master  	push len server 
+
+new line
