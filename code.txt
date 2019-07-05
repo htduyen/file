@@ -5,10 +5,14 @@ git pull 	lay thay doi tren web ve may
 Khi 2 ng cùng sửa 1 file thì khi SD: git pull sẽ conflict nên: git pull về máy, sau đó mở file conflict xem, có thể xóa commit từ server sau đó commit lại và push lên server trở lại
 
 
-git remote add origin url   tham chieu toi url 
-git remote -v    			xem  url đã tham chieu toi 
+git remote add origin url   	tham chieu toi url 
+
+git remote -v    		xem  url đã tham chieu toi 
 
 
 git push -u origin master  	push len server 
 
-new line
+
+git branch name-branch        	To create new branch 
+
+git checkout name-branch  	To working with this name-branch
