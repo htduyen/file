@@ -85,3 +85,11 @@ class a{
    }
 }
 ==>  var b a.ActionMethod()  goi truc tiep khong can thong qua Object A
+
+
+
+
+//-----------------------------thua ke -----------------------------
+constructor(name: String, old: Int, grade:Int):super(name,old){
+        this.grade = grade
+    }
