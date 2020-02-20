@@ -48,14 +48,16 @@ fun A: String? {
     return null
  }
  
-//-------------Multible argument in function ==> ------------VARARG  -----------------------------
+//-------------Multible argument in function ==> ------------VARARG  -------------using *list-------- arrayOf NOT listOf--------
 fun SayHello(chao:String, vararg arguments:String){
             arguments.forEach { arg ->
             //arguments luc nay la mot Array chua tat ca cac argment truyen vao
                 Log.d("bbbbb", "$chao $arg")
             }
         }
-var listMonhoc = listOf<String>("Toan", "Van", "Hoa hoc")
-SayHello("Chao", "Toan", "Van", "Hoa hoc")
+var listMonhoc = arrayOf<String>("Toan", "Van", "Hoa hoc")
+// SayHello("Chao", "Toan", "Van", "Hoa hoc")
+// SayHello("Chao", *listMonhoc) 
+   SayHello(chao = "Chao", arguments = *listMonhoc)  // tao tham so cu the thi truyen ca 2 
  
    
