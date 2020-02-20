@@ -60,4 +60,22 @@ var listMonhoc = arrayOf<String>("Toan", "Van", "Hoa hoc")
 // SayHello("Chao", *listMonhoc) 
    SayHello(chao = "Chao", arguments = *listMonhoc)  // tao tham so cu the thi truyen ca 2 
  
-   
+// -------------Get & set == gettter setter + xu ly in java --------------
+var id:String? = "dsdsds"
+        set(value) {
+            field = value
+            Log.d("AAAA", "ID id $value")
+        }
+        get() {
+            Log.d("AAAA", "ID id $field")
+            return field
+        }
+
+// ---------------------companion object---------------------
+class a{
+   companion object A {
+      var a: String = "dfdfd"
+      fun ActionMethod(){}
+   }
+}
+==>  var b a.ActionMethod()  goi truc tiep khong can thong qua Object A
