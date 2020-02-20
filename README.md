@@ -18,7 +18,13 @@ val items = listOf(1, 22, 83, 4)
   listNumbers.forEachIndexed { index, i ->
             Log.d("AAAAA", i.toString() + " index ->" + index)
         }
-
+   listNumber.first()
+   listNumber.last()
+   ................
+   
+   
+   
+   
 //Continue & Break phai sd labelName@ o dau vong lap
    myLabel@ for(x in 1..10) { // appling the custom label
       if(x = = 5) {
