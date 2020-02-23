@@ -93,3 +93,4 @@ class a{
 constructor(name: String, old: Int, grade:Int):super(name,old){
         this.grade = grade
     }
+// Serilizable đối tượng khi putIntent ==> getSerilizable()
