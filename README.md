@@ -94,3 +94,11 @@ constructor(name: String, old: Int, grade:Int):super(name,old){
         this.grade = grade
     }
 // Serilizable đối tượng khi putIntent ==> getSerilizable()
+//SharePreference 
+var sharePrefence = getSharePrefenc("name_pref", Context.MODE_PRIVATE)
+var edior = sharePrefencr.editor()
+editor.putString("name", "Huynh Thanh Duyen")
+
+==> Get SharePrefernce
+var sharePrefence = getSharePrefenc("name_pref", Context.MODE_PRIVATE)
+var getName = shareReerence.getString("name")
