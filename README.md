@@ -102,3 +102,6 @@ editor.putString("name", "Huynh Thanh Duyen")
 ==> Get SharePrefernce
 var sharePrefence = getSharePrefenc("name_pref", Context.MODE_PRIVATE)
 var getName = shareReerence.getString("name")
+
+
+//https://github.com/winneze1/myapi2
