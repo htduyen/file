@@ -105,3 +105,4 @@ var getName = shareReerence.getString("name")
 
 
 //https://github.com/winneze1/myapi2
+Load image: Glide > picasso > Coil : About speed  
