@@ -112,3 +112,12 @@ Load image: Glide > picasso > Coil : About speed
       implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
       implementation 'com.squareup.retrofit2:converter-scalars:2.7.1'
       
+      implementation  'com.squareup.retrofit2:retrofit:2.7.2'
+      implementation 'com.squareup.retrofit2:adapter-rxjava: 2.7.2'
+
+       implementation 'com.squareup.retrofit2:adapter-rxjava2:2.6.2'
+       implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+       implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+       implementation 'io.reactivex.rxjava2:rxjava:2.2.14'
+
+// holder.txtContent.text = StringBuilder(listPost[position].body.subSequence(0,20)).append("...").toString()
