@@ -93,7 +93,9 @@ class a{
 constructor(name: String, old: Int, grade:Int):super(name,old){
         this.grade = grade
     }
+
 // Serilizable đối tượng khi putIntent ==> getSerilizable()
+
 //SharePreference 
 var sharePrefence = getSharePrefenc("name_pref", Context.MODE_PRIVATE)
 var edior = sharePrefencr.editor()
@@ -108,16 +110,20 @@ var getName = shareReerence.getString("name")
 Load image: Glide > picasso > Coil : About speed  
 
 //Retrofit
-      implementation 'com.squareup.retrofit2:retrofit:2.7.1'
-      implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
-      implementation 'com.squareup.retrofit2:converter-scalars:2.7.1'
-      
-      implementation  'com.squareup.retrofit2:retrofit:2.7.2'
-      implementation 'com.squareup.retrofit2:adapter-rxjava: 2.7.2'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha01'
+    implementation 'androidx.cardview:cardview:1.0.0'
 
-       implementation 'com.squareup.retrofit2:adapter-rxjava2:2.6.2'
-       implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
-       implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-       implementation 'io.reactivex.rxjava2:rxjava:2.2.14'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.paging:paging-runtime:2.1.1'
+    //Rx
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
 // holder.txtContent.text = StringBuilder(listPost[position].body.subSequence(0,20)).append("...").toString()
