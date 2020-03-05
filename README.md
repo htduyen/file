@@ -127,3 +127,12 @@ Load image: Glide > picasso > Coil : About speed
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
 // holder.txtContent.text = StringBuilder(listPost[position].body.subSequence(0,20)).append("...").toString()
+
+UI Github
+Toast                      ==>   https://github.com/code-mc/loadtoast
+SearchView                 ==>   http://miguelcatalan.info/2015/09/23/MaterialSearchView/
+AnimationView              ==>   https://github.com/daimajia/AndroidViewAnimations
+ImageSlide                 ==>   https://github.com/daimajia/AndroidImageSlider
+CircleIndicator(Slide)     ==>   https://github.com/ongakuer/CircleIndicator
+Material animation(activity   ==>   https://github.com/lgvalle/Material-Animations
+
