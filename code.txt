@@ -6,12 +6,13 @@ Khi 2 ng cùng sửa 1 file thì khi SD: git pull sẽ conflict nên: git pull v
 
 
 git remote add origin url   	tham chieu toi url 
+git remote set-url new_url    change url remote
 
 git remote -v    		xem  url đã tham chieu toi 
 
 
 git push -u origin master  	push len server 
-
+git push -f origin master  	push len server 
 
 git branch name-branch        	To create new branch 
 
