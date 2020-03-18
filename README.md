@@ -135,4 +135,5 @@ AnimationView              ==>   https://github.com/daimajia/AndroidViewAnimatio
 ImageSlide                 ==>   https://github.com/daimajia/AndroidImageSlider
 CircleIndicator(Slide)     ==>   https://github.com/ongakuer/CircleIndicator
 Material animation(activity   ==>   https://github.com/lgvalle/Material-Animations
+Youtube: https://www.youtube.com/watch?v=RCLNkSIQQaw (ROOM CRUD + LiveData)
 
