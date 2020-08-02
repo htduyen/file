@@ -4,6 +4,11 @@ git log     xem cac commit
 git pull 	lay thay doi tren web ve may
 Khi 2 ng cùng sửa 1 file thì khi SD: git pull sẽ conflict nên: git pull về máy, sau đó mở file conflict xem, có thể xóa commit từ server sau đó commit lại và push lên server trở lại
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/htduyen/Spring-mvc-Hibernate.git
+git push -u origin master
 
 git remote add origin url   	tham chieu toi url 
 git remote set-url new_url    change url remote
